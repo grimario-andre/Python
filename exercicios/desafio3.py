@@ -1,6 +1,5 @@
-print('Primerio numero')
-num1 = input(int)
-print('Segundo numero')
-num2 = input(int)
+num1 = int(input('Primeiro número'))
+num2 = int(input('segundo número'))
 
-print(num1 + num2)
+print('A soma dos números é, {}.'.format(num1+num2))
+

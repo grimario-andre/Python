@@ -1,0 +1,25 @@
+num = int(input('Insira um valor '))
+res = 0
+print('A tabuáda do valor inserido esta abaixo')
+res = num * 0
+print('{} x 0 = {} '.format(num,res))
+res = num * 1
+print('{} x 1 = {} '.format(num,res))
+res = num * 2
+print('{} x 2 = {} '.format(num,res))
+res = num * 3
+print('{} x 3 = {} '.format(num,res))
+res = num * 4
+print('{} x 4 = {} '.format(num,res))
+res = num * 5
+print('{} x 5 = {} '.format(num,res))
+res = num * 6
+print('{} x 6 = {} '.format(num,res))
+res = num * 7
+print('{} x 7 = {} '.format(num,res))
+res = num * 8
+print('{} x 8 = {} '.format(num,res))
+res = num * 9
+print('{} x 9 = {} '.format(num,res))
+res = num * 10
+print('{} x 10 = {} '.format(num,res))

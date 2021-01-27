@@ -1,4 +1,4 @@
-real = float(input('Informe o valor da carteira '))
+real = float(input('Informe o valor da carteira R$ '))
 cotacao = float(5.47)
 
 dolar = real / cotacao

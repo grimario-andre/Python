@@ -1,0 +1,5 @@
+print('============== Conversor de Temperaturas ===============')
+tc = float(input('Informe a temperatura em C° '))
+tf = (((9 * tc) / 5) + 32)
+print('\n')
+print('A temperatura em graus {:.1f}C° convertida em graus será {:.1f}F° '.format(tc,tf))

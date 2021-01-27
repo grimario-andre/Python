@@ -1,7 +1,7 @@
 print('========= Calculando a Area do M² ============')
 alt = float(input('Informe a altura '))
 larg = float(input('Agora a largura '))
-
+print('\n')
 mquad = alt * larg
 ltinta = mquad / 2
 

@@ -1,7 +1,7 @@
 print('================== Calculando preços com descontos ==============')
 preco = float(input('Informe o valor do produto '))
-vldesc = int(input('O valor a porcentagem do desconto %  '))
-
+vldesc = int(input('O valor a porcentagem do desconto % '))
+print('\n')
 desc = preco * vldesc / 100
 nvpreco = preco - desc
 

@@ -1,6 +1,6 @@
-num = int(input('Digite um número'))
+num = int(input('Digite um número '))
 
-antecessor = num - 1
-sucessor = num + 1
+# antecessor = num - 1
+# sucessor = num + 1
 
-print('O número {} tem como antecessor o {} e como sucessor o {} '.format(num,antecessor,sucessor))
+print('O número {} tem como antecessor o {} e como sucessor o {} '.format(num,(num -1),(num+1)))

@@ -1,15 +1,16 @@
 print('================== Leito de nomes ===================')
-nome = str(input('Informe o nome completo '))
+nome = str(input('Informe o nome completo ')).strip()
 
 #Exibir nome com todas as letras maiúsculas.
-print(nome.upper())
+print('Seu nome em maiúsculas é: {} '.format(nome.upper()))
 
 #Exibir nome com todas as letras minúsculas.
-print(nome.lower())
+print('Seu nome em minúsculas é: {} '.format(nome.lower()))
 
 #Exibir todas as letras sem espaços.
-print(nome.count(''))
+print(len(nome) - nome.count(' '))
 
-#Exibir quantas letras tem o primerio nome.
-pnome = nome.split()
-print(pnome[0].count(''))
+#Quantas letras tem o primeiro nome.
+separa =  nome.split()
+#print(separa[0].find(''))
+print('Seu primeiro nome é {} e ele tem {} letras '.format(separa[0],len(separa[0])))

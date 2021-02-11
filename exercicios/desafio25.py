@@ -1,6 +1,4 @@
 print('=========== Verificador de Nomes ================')
-nome = str(input('Digite um nome '))
+nome = str(input('Digite um nome ')).strip()
 
-temSilva = nome.split()
-
-print('SILVA' in temSilva)
+print('silva' in nome.lower())

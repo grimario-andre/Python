@@ -1,4 +1,4 @@
 print('============= Verificar Nomes de Cidades =============')
-nome = input('Informe o nome da Cidade ')
+nome = str(input('Informe o nome da Cidade ')).strip()
 santo = nome.split()
-print('SANTO' in santo[0])
+print(santo[0].upper() in 'SANTO')

@@ -2,32 +2,26 @@ print('========= Vamos joga Joken Po ============')
 #import module random
 import random
 from time import sleep
-
-jogadapc = random.randint(1,3)
-jogada = ''
-
+jogada = random.randint(1,3)
+jogadapc = ''
 #condition
-if jogadapc == 1:
-    jogada = 'papel'
-elif jogadapc == 2:
-    jogada = 'pedra'
+if jogada == 1:
+    jogadapc = 'papel'
+elif jogada == 2:
+    jogadapc = 'pedra'
 else:
-    jogada = 'tesoura'
-
-jogadap = str(input('Faça sua escolha\n Pedra\n Papel\n Tesoura ')).lower().strip()
-
-print('1, 2, 3 e já! ')
-sleep(3)
-
+    jogadapc = 'tesoura'
+jogadap = str(input('Faça sua escolha\n Pedra\n Papel\n Tesoura \n')).lower().strip()
+print('JO KEN PO! ')
+sleep(2)
 #condition for comparation
-if jogada == jogadap:
+if jogadapc == jogadap:
     print('Deu empate, vamos novamente ')
-elif jogada == 'pedra' and jogadap == 'papel':
-    print('Parabéns, você ganhou, papel vence pedra. ')
-elif jogada ==  'papel' and jogadap == 'tesoura':
-    print('Parabéns, você ganhou, tesoura vence papel. ')
-elif jogada == 'tesoura' and jogadap == 'pedra':
-    print('Parabéns, você ganhou, pedra vence tesoura. ')
+elif jogadapc == 'pedra' and jogadap == 'papel':
+    print('Parabéns humano, papel vence pedra. ')
+elif jogadapc ==  'papel' and jogadap == 'tesoura':
+    print('Parabéns humano, tesoura vence papel. ')
+elif jogadapc == 'tesoura' and jogadap == 'pedra':
+    print('Parabéns humano, pedra vence tesoura. ')
 else:
-    print('HA HA, Ganhei!')
-
+    print('HA HA, IA WINS ;)')

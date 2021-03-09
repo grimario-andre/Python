@@ -4,11 +4,11 @@ anonasci = int(input('Informe o ano de nascimento '))
 
 #import module time
 from time import sleep
-
+from datetime import date
 print('Aguarde um monento ... ')
 sleep(3)
 
-anoatual = 2021;
+anoatual = date.today().year;
 
 idade =  anoatual - anonasci
 
